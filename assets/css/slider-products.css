@@ -1,0 +1,45 @@
+#slider-products {
+  cursor: default;
+  background-color: #c5e1a2;
+}
+
+#slider-products a {
+  color: var(--color-secondary);
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1rem;
+  transition: all 0.3s;
+}
+
+#slider-products img.img-fluid {
+  width: 75% !important;
+}
+
+#slider-products a:hover {
+  color: var(--color-secondary-dark);
+  text-decoration: underline;
+}
+
+#slider-products .title_product_card {
+  font-weight: bold;
+  color: white;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+#slider-products .title_product_card span {
+  color: var(--color-secondary-dark);
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+
+#slider-products .descript_product_card {
+  font-size: 14px !important;
+}
+
+@media only screen and (max-width: 965px) {
+  #slider-products {
+    display: none;
+  }
+}

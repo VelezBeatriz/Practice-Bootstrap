@@ -1,0 +1,85 @@
+.register-page div.container.formulari{
+        width:80%;
+}
+
+.register-page div.container.formulari h1{
+    color: var(--color-primary);
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.register-page div.container.formulari p{
+    color: var(--color-secondary);
+    font-size: 14px;
+}
+
+.register-page div.container.formulari form .container.d-flex.flex-column{
+    gap:20px;
+    padding: 0;
+}
+
+.register-page div.container.formulari form{
+    margin: 20px 0;
+}
+
+.register-page span{
+    font-size: 14px;  
+}
+
+.register-page span a{
+    color: var(--color-secondary-dark)!important;
+    transition: all .3s;
+}
+.register-page  span:hover a{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+.register-page div.container.formulari input{
+    border: solid 2px #C5E1A2;
+    border-radius: 0;
+    font-size: 14px;
+    padding: 10px;
+    color: var(--color-gray);
+    transition: all .3s;
+}
+
+.register-page div.container.formulari input:focus{
+    border: solid 2px #C5E1A2;
+    border-radius: 0;
+    box-shadow: none;
+    color: var(--color-gray-dark);
+}
+
+.register-page div.container.formulari .checked input{
+    font-size: 12px;
+    color: var(  --color-font);
+    transition: all .3s;
+}
+
+.register-page div.container.formulari .checked a{
+    color: #C5E1A2;
+    transition: all .3s;
+}
+.register-page div.container.formulari .checked a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.register-page div.container.formulari .checked input:focus{
+    box-shadow: none;
+    color: var(  --color-font-dark);
+    background-color: #C5E1A2;
+}
+
+.register-page div.container.formulari input[type="submit"]{
+    border-radius: 0;
+    background-color: #C5E1A2!important;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    letter-spacing: 2px;
+    box-shadow: 5px 4px 4px 0 #0000007a;
+}
+

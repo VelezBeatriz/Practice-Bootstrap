@@ -1,0 +1,97 @@
+#contact-page{
+    margin-bottom: 50px;
+  }
+
+#contact-page h1{
+    color: var( --color-primary);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 32px;
+}
+
+#contact-page .row.align-items-center .col-lg-4.p-4{
+    background-color: #C5E1A2;
+    height: 650px;
+    box-shadow: -13px 10px 10px -2px #7b2e2e6b;
+}
+
+#contact-page .row.align-items-center.g-0 div.col-lg-4.p-4 p{
+    font-size: 16px;
+    margin: 50px 0;
+
+}
+
+
+#contact-page .row.align-items-center.g-0 div.col-lg-4.p-4 form, .form-group{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#contact-page .row.align-items-center.g-0 div.col-lg-4.p-4 .form-group{
+    padding: 0 10px;
+}
+
+#contact-page .row.align-items-center.g-0 div.col-lg-4.p-4 form .form-group input,.form-group textarea{
+   border: solid 2px var(--color-secondary);
+   border-radius: 0;
+   font-size: 12px;
+   color: var(--color-gray);
+   transition: all .3s;
+}
+
+#contact-page .row.align-items-center.g-0 div.col-lg-4.p-4 form .form-group .form-control:focus{
+    border: solid 2px var(--color-secondary-dark);
+    border-radius: 0;
+    box-shadow: none;
+    color: var(--color-gray-dark);
+ }
+ 
+
+ #contact-page .row.align-items-center.g-0 div.col-lg-4.p-4 form .form-check{
+    font-size: 14px;
+    color: var(  --color-font);
+    transition: all .3s;
+ }
+
+ #contact-page .row.align-items-center.g-0 div.col-lg-4.p-4 form .form-check a{
+    color: var(--color-secondary-dark);
+    transition: all .3s;
+ }
+
+ #contact-page .row.align-items-center.g-0 div.col-lg-4.p-4 form .form-check a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+ }
+ 
+  
+ #contact-page .row.align-items-center.g-0 div.col-lg-4.p-4 form .form-check:focus{
+     box-shadow: none;
+     color: var(  --color-font-dark);
+  }
+  
+  #contact-page .row.align-items-center.g-0 div.col-lg-4.p-4 form .form-check-input:checked{
+    box-shadow: none;
+    border: none;
+    background-color: var(--color-secondary-dark);
+ }
+
+ #contact-page .row.align-items-center.g-0 div.col-lg-4.p-4 form .form-check-input:focus{
+    box-shadow: none;
+    border: none;
+ }
+
+ #contact-page button[type="submit"]{
+    border-radius: 0;
+    text-transform: uppercase;
+    box-shadow: 5px 4px 4px 0 #0000007a;
+ }
+ 
+ #contact-page .text-monstruosament{
+    font-family:"JustMeAgainDownHere-Regular";
+    color: #5B2C12;
+    font-size:2.5rem!important;
+    font-weight: normal;
+    text-transform: uppercase;
+ }
+ 

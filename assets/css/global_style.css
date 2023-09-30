@@ -1,0 +1,28 @@
+@import url('colors.css');
+@import url('common.css');
+@import url('fonts.css');
+
+@import url('header.css');
+
+/*HOME*/
+@import url('principal_banner.css');
+@import url('about-banner.css');
+@import url('info-banner.css');
+@import url('products-banner.css');
+@import url('slider-products.css');
+@import url('contact-home.css');
+
+@import url('footer.css');
+
+/*CONTACT*/
+@import url('contact-page.css');
+
+/*LEGAL TEXT*/
+@import url('legal-text.css');
+
+/*REGISTER and LOGIN*/
+@import url('register.css');
+
+/*ABOUT US*/
+@import url('aboutus-page.css');
+

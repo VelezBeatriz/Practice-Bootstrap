@@ -1,0 +1,63 @@
+.legal-text-web .container-lg h1{
+    color:var(--color-secondary-dark);
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 22px;
+    cursor: default;
+
+}
+.legal-text-web .container-lg h2{
+    color:var(--color-secondary);
+    text-decoration: underline;
+    margin: 15px 0;
+    text-transform: uppercase;
+    font-size: 20px;
+    cursor: default;
+
+
+}
+.legal-text-web .container-lg h3{
+    color:var(--color-secondary);
+    text-decoration: underline;
+    margin: 15px 0;
+    text-transform: uppercase;
+    font-size: 18px;
+    cursor: default;
+
+
+}
+.legal-text-web .container-lg p{
+    color:var(--color-font);
+    line-height: 1.7rem;
+    font-size: 16px;
+    text-align: justify;
+    cursor: default;
+    
+
+}
+
+.legal-text-web .container-lg .list-credits{
+    list-style-type: disc!important;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.legal-text-web .container-lg .list-credits li{
+    padding-bottom:15px;
+}
+
+.legal-text-web .container-lg .list-credits li::marker{
+    color: var(--color-auxiliar-dark);
+    font-size: 1.2em;
+
+}
+
+.legal-text-web .container-lg .list-credits li a:hover{
+    transition: all .3s;
+}
+
+.legal-text-web .container-lg .list-credits li a:hover{
+    text-decoration: underline;
+}
+

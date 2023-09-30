@@ -1,0 +1,138 @@
+#products-banner{
+    margin-top: 50px;
+    padding: 50px 0px;
+    cursor: default;
+  }
+  #products-banner .col-lg-4{
+    margin-bottom: 20px;
+  }
+  
+  #products-banner div.images_products {
+    position: relative;
+  }
+
+  #products-banner img{
+    position: relative;
+    aspect-ratio: 1/1;
+    width: 200px;
+    object-fit: contain;
+    transition: all 0.3s;
+    z-index: 1;
+    animation-name: grow-up;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+   
+  }
+
+/* 
+  #products-banner img:hover{
+    transform: scale(1.08);
+  } */
+
+
+  #products-banner .images_products.img_sweet::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background-color: #43F6EB;
+    opacity: 1;
+    z-index: 0;
+  }
+
+  #products-banner .images_products.img_smoothie::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background-color: #95E880;
+    opacity: 1;
+    z-index: 0;
+  }
+
+  #products-banner .images_products.img_te::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background-color: #FCEE72;
+    opacity: 1;
+    z-index: 0;
+  }
+
+
+  #products-banner p{
+    margin-top: 35px;
+    font-size: 1.5rem;
+    color: var(--color-font);
+  }
+
+
+  @media only screen and (max-width: 964px) {
+
+    #products-banner img{
+        width: 400px;
+      }
+      
+  #products-banner .images_products.img_sweet::before {
+    width: 350px;
+  }
+
+  #products-banner .images_products.img_smoothie::before {
+    width: 350px;
+  }
+
+  #products-banner .images_products.img_te::before {
+    width: 350px;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+    #products-banner img{
+        width: 300px;
+      }
+      
+  #products-banner .images_products.img_sweet::before {
+    width: 250px;
+  }
+
+  #products-banner .images_products.img_smoothie::before {
+    width: 250px;
+  }
+
+  #products-banner .images_products.img_te::before {
+    width: 250px;
+  }
+}
+
+@keyframes grow-up {
+  0% {
+      transform: scale(1);
+  }
+  25% {
+      transform: scale(1.02);
+  }
+  50% {
+    transform: scale(1.05);
+}
+75% {
+  transform: scale(1.02);
+}
+  100% {
+      transform: scale(1);
+  }
+}

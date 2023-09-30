@@ -1,0 +1,31 @@
+*, *:before, *:after {
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    margin:0;
+    padding:0}
+
+
+html,body{
+    margin:0;
+    padding: 0;
+    color:var(--color-font);
+    font-family: "Inter-Regular", Arial, Helvetica, sans-serif;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    color:var(--color-font);
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+a:hover{
+    color:var(--color-font-dark);
+}
+

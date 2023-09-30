@@ -1,0 +1,94 @@
+#contact-home{
+    margin-bottom: 30px;
+}
+#contact-home img.contact-img{
+    width: 85%;
+    filter: drop-shadow(10px 10px 5spx #ccc);
+}
+
+#contact-home .content-general{
+    text-align: center;
+}
+
+#contact-home .content-general h2{
+    position: relative;
+    color: var(--color-primary);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 30px;
+    cursor: default;
+}
+
+#contact-home .content-general h2::before{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family:"JustMeAgainDownHere-Regular";
+    color: #5B2C12;
+    content: "\"Monstruosament\"";
+    padding: 10px;
+    font-size: 2.5rem;
+    font-weight: normal;
+    text-transform: uppercase;
+    cursor: default;
+
+}
+
+#contact-home .content-general p{
+    cursor: default;
+    color: var( --color-secondary);
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+#contact-home .content-general .col-12 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#contact-home .content-general .col-12 img{
+    width: 50px;
+    animation: rotation 4s linear infinite;
+}
+
+
+@media only screen and (max-width: 993px) {
+    #contact-home img.contact-img{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:  768px) {
+    #contact-home img.contact-img, #contact-home div.col-md-6.p-5.text-center{
+        display: none;
+    }
+
+    #contact-home div.container.p-4{
+        padding-top:0!important;
+    }
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(5deg);
+      }
+      25% {
+        transform: rotate(-5deg);
+      }
+      50% {
+        transform: rotate(3deg);
+      }
+      75% {
+        transform: rotate(-3deg);
+      }
+      100% {
+        transform: rotate(0deg);
+      }
+    }
+

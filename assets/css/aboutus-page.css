@@ -1,0 +1,45 @@
+#about_us_page .title{
+    color: var(--color-primary);
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+#about_us_page .sub-title{
+    color: var(--color-secondary);
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+#about_us_page p{
+    line-height: 1.7rem;
+    text-align: justify;
+}
+#about_us_page .text-row{
+    margin-bottom: 100px;
+}
+#about_us_page .text-column{
+    padding-right: 75px;
+}
+#about_us_page img{
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 993px) {
+    #about_us_page .text-row{
+        margin-bottom: 50px;
+    }
+    #about_us_page .text-column{
+        padding-right: 0px;
+        text-align: justify;
+        margin-bottom: 20px;
+    }
+    #about_us_page p{
+        text-align: justify;
+    }
+}
+
+@media only screen and (max-width: 579px) {
+    #about_us_page{
+        padding: 0 40px;
+    }
+    
+}
