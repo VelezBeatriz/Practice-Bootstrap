@@ -1,4 +1,4 @@
-# Aprendiendo qué es Bootstrap
+# Mi primer proyecto solita
 
 ## Descripción
 
@@ -8,7 +8,7 @@ Puedes acceder a la versión en vivo del sitio en el siguiente enlace:
 
 ## Resumen del Proyecto
 
-Este sitio web es un proyecto de diseño personal. Originalmente desarrollado utilizando PHP y SQL, pero esta es una adaptación se enfoca en los componentes de HTML y CSS del sitio. Aunque tiene muchos errores y me gustaría mejorarlo en su momento me sentí contenta de que saliera algo potable.
+Este sitio web es un proyecto de diseño personal. Originalmente desarrollado utilizando PHP y SQL, pero esta es una adaptación se enfoca en los componentes de HTML y CSS del sitio. Aunque tiene muchos errores y me gustaría mejorarlo, en su momento me sentí contenta de que saliera algo.
 El objetivo original de este proyecto era aprender e implementar Bootstrap. También verás que me encabezoné en crear el css lo más especifico posible.
 
 ## Contribuciones
